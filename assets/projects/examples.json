@@ -1,0 +1,437 @@
+﻿[
+    {
+        "image":  "./assets/projects/house-01.jpg",
+        "caption":  "Дом из кирпича 1",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-02.jpg",
+        "caption":  "Дом из кирпича 2",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-03.jpg",
+        "caption":  "Дом из кирпича 3",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-04.jpg",
+        "caption":  "Дом из кирпича 4",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-05.jpg",
+        "caption":  "Дом из кирпича 5",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-06.jpg",
+        "caption":  "Дом из кирпича 6",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-07.png",
+        "caption":  "Дом из кирпича 7",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-08.png",
+        "caption":  "Дом из кирпича 8",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-09.png",
+        "caption":  "Дом из кирпича 9",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-10.png",
+        "caption":  "Дом из кирпича 10",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-11.png",
+        "caption":  "Дом из кирпича 11",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-12.png",
+        "caption":  "Дом из кирпича 12",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-13.png",
+        "caption":  "Дом из кирпича 13",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-14.png",
+        "caption":  "Дом из кирпича 14",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-15.png",
+        "caption":  "Дом из кирпича 15",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-16.png",
+        "caption":  "Дом из кирпича 16",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-17.png",
+        "caption":  "Дом из кирпича 17",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-18.png",
+        "caption":  "Дом из кирпича 18",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-19.png",
+        "caption":  "Дом из кирпича 19",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-20.png",
+        "caption":  "Дом из кирпича 20",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-21.png",
+        "caption":  "Дом из кирпича 21",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/house-22.png",
+        "caption":  "Дом из кирпича 22",
+        "group":  "Дома из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-01.png",
+        "caption":  "Работа из кирпича 1",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-02.png",
+        "caption":  "Работа из кирпича 2",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-03.png",
+        "caption":  "Работа из кирпича 3",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-04.png",
+        "caption":  "Работа из кирпича 4",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-05.png",
+        "caption":  "Работа из кирпича 5",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-06.png",
+        "caption":  "Работа из кирпича 6",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-07.png",
+        "caption":  "Работа из кирпича 7",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-08.png",
+        "caption":  "Работа из кирпича 8",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-09.png",
+        "caption":  "Работа из кирпича 9",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-10.png",
+        "caption":  "Работа из кирпича 10",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-11.png",
+        "caption":  "Работа из кирпича 11",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-12.png",
+        "caption":  "Работа из кирпича 12",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-13.png",
+        "caption":  "Работа из кирпича 13",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-14.png",
+        "caption":  "Работа из кирпича 14",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-15.png",
+        "caption":  "Работа из кирпича 15",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-16.png",
+        "caption":  "Работа из кирпича 16",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-17.png",
+        "caption":  "Работа из кирпича 17",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-18.png",
+        "caption":  "Работа из кирпича 18",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-19.png",
+        "caption":  "Работа из кирпича 19",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-20.png",
+        "caption":  "Работа из кирпича 20",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-21.png",
+        "caption":  "Работа из кирпича 21",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-22.png",
+        "caption":  "Работа из кирпича 22",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-23.png",
+        "caption":  "Работа из кирпича 23",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-24.png",
+        "caption":  "Работа из кирпича 24",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-25.png",
+        "caption":  "Работа из кирпича 25",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-26.png",
+        "caption":  "Работа из кирпича 26",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-27.png",
+        "caption":  "Работа из кирпича 27",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-28.png",
+        "caption":  "Работа из кирпича 28",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-29.png",
+        "caption":  "Работа из кирпича 29",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-30.png",
+        "caption":  "Работа из кирпича 30",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-31.png",
+        "caption":  "Работа из кирпича 31",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-32.png",
+        "caption":  "Работа из кирпича 32",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-33.png",
+        "caption":  "Работа из кирпича 33",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-34.png",
+        "caption":  "Работа из кирпича 34",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-35.png",
+        "caption":  "Работа из кирпича 35",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-36.png",
+        "caption":  "Работа из кирпича 36",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-37.png",
+        "caption":  "Работа из кирпича 37",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-38.png",
+        "caption":  "Работа из кирпича 38",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-39.png",
+        "caption":  "Работа из кирпича 39",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-40.png",
+        "caption":  "Работа из кирпича 40",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-41.png",
+        "caption":  "Работа из кирпича 41",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-42.png",
+        "caption":  "Работа из кирпича 42",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-43.png",
+        "caption":  "Работа из кирпича 43",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-44.png",
+        "caption":  "Работа из кирпича 44",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-45.png",
+        "caption":  "Работа из кирпича 45",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-46.png",
+        "caption":  "Работа из кирпича 46",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-47.png",
+        "caption":  "Работа из кирпича 47",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-48.png",
+        "caption":  "Работа из кирпича 48",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-49.png",
+        "caption":  "Работа из кирпича 49",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-50.png",
+        "caption":  "Работа из кирпича 50",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-51.png",
+        "caption":  "Работа из кирпича 51",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-52.png",
+        "caption":  "Работа из кирпича 52",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-53.png",
+        "caption":  "Работа из кирпича 53",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-54.png",
+        "caption":  "Работа из кирпича 54",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-55.png",
+        "caption":  "Работа из кирпича 55",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-56.png",
+        "caption":  "Работа из кирпича 56",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-57.png",
+        "caption":  "Работа из кирпича 57",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-58.png",
+        "caption":  "Работа из кирпича 58",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-59.png",
+        "caption":  "Работа из кирпича 59",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-60.png",
+        "caption":  "Работа из кирпича 60",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-61.png",
+        "caption":  "Работа из кирпича 61",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-62.png",
+        "caption":  "Работа из кирпича 62",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-63.png",
+        "caption":  "Работа из кирпича 63",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-64.png",
+        "caption":  "Работа из кирпича 64",
+        "group":  "Наши работы из кирпича"
+    },
+    {
+        "image":  "./assets/projects/work-65.png",
+        "caption":  "Работа из кирпича 65",
+        "group":  "Наши работы из кирпича"
+    }
+]

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Элит Кирпич | Завод облицовочного кирпича</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" data-route="home" aria-label="Элит Кирпич">
+        <img class="brand-logo" src="./assets/site/logo-enhanced.png" alt="Элит Кирпич" />
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Открыть меню">☰</button>
+      <nav class="nav" id="site-nav" aria-label="Навигация">
+        <a href="#products" data-route="products">Каталог кирпича</a>
+        <a href="#promo" data-route="promo">Акция</a>
+        <a href="#gallery" data-route="gallery">Фотогалерея</a>
+        <a href="#articles" data-route="articles">Статьи</a>
+        <a href="#recommendations" data-route="recommendations">Рекомендации</a>
+        <a href="#delivery" data-route="delivery">Оплата и доставка</a>
+        <a href="#contacts" data-route="contacts">Контакты</a>
+      </nav>
+      <a class="topbar-action" href="tel:+79189481899">8 (918) 948-18-99</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Завод изготовитель · Краснодар</p>
+          <h1>Облицовочный кирпич от завода</h1>
+          <p class="lead">
+            Производство и продажа кирпича напрямую от завода. Подберите цвет
+            фасада на 3D-модели дома и рассчитайте партию под ваш проект.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#constructor" data-route="constructor">Открыть 3D подбор</a>
+            <a class="secondary-action" href="#products" data-route="products">Смотреть каталог</a>
+          </div>
+          <div class="metrics" aria-label="Преимущества">
+            <div><strong>М250</strong><span>прочность кирпича</span></div>
+            <div><strong>F100</strong><span>морозостойкость</span></div>
+          </div>
+        </div>
+
+        <aside class="contact-panel" aria-label="Контакты завода">
+          <span class="panel-label">Контакты</span>
+          <strong>Краснодар, ул. Бульвар Строителей 130</strong>
+          <a href="tel:+79189481899">8 (918) 948-18-99</a>
+          <a href="tel:+79184301441">8 (918) 430-14-41</a>
+          <a href="mailto:elitkirpich@mail.ru">elitkirpich@mail.ru</a>
+          <div class="hero-samples" aria-label="Образцы кирпича">
+            <img src="./assets/site/brick-single.png" alt="Одинарный пустотелый лицевой кирпич" />
+            <img src="./assets/site/brick-mix.png" alt="Элит микс" />
+            <img src="./assets/site/facade-tile.png" alt="Фасадная цокольная плитка" />
+          </div>
+        </aside>
+      </section>
+
+      <section class="section configurator" id="constructor">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">3D дополнение</p>
+            <h2>Посмотрите оттенок кирпича на разных домах</h2>
+          </div>
+          <p>
+            Переключайте тип дома, цвет кирпича и фактуру. Модель можно вращать
+            мышью или пальцем.
+          </p>
+        </div>
+
+        <div class="studio" aria-label="3D подбор цвета кирпича">
+          <div class="studio-header">
+            <div>
+              <span class="panel-label">Конфигуратор фасада</span>
+              <h3 id="selected-label">Коттедж · терракот · гладкий</h3>
+            </div>
+            <button class="icon-button" id="reset-view" type="button" title="Сбросить вид" aria-label="Сбросить вид">
+              ↻
+            </button>
+          </div>
+
+          <div class="viewer-wrap">
+            <canvas id="brick-viewer" aria-label="3D модели домов"></canvas>
+          </div>
+
+          <div class="controls">
+            <div class="control-row">
+              <span>Дом</span>
+              <div class="segmented" aria-label="Тип дома">
+                <button class="house-tab active" type="button" data-house="cottage">Коттедж</button>
+                <button class="house-tab" type="button" data-house="townhouse">Таунхаус</button>
+                <button class="house-tab" type="button" data-house="villa">Вилла</button>
+              </div>
+            </div>
+
+            <div class="control-row">
+              <span>Фактура</span>
+              <div class="segmented" aria-label="Фактура кирпича">
+                <button class="texture-tab active" type="button" data-texture="smooth">Гладкий</button>
+                <button class="texture-tab" type="button" data-texture="split">Колотый</button>
+                <button class="texture-tab" type="button" data-texture="mix">Элит микс</button>
+              </div>
+            </div>
+
+            <div class="palette" aria-label="Цвет кирпича">
+              <button class="swatch active" type="button" data-color="#b65f43" data-name="терракот" style="--swatch: #b65f43" aria-label="Терракот"><span>Терракот</span></button>
+              <button class="swatch" type="button" data-color="#d4c3a5" data-name="бежевый" style="--swatch: #d4c3a5" aria-label="Бежевый"><span>Бежевый</span></button>
+              <button class="swatch" type="button" data-color="#cf9d4a" data-name="жёлтый" style="--swatch: #cf9d4a" aria-label="Жёлтый"><span>Жёлтый</span></button>
+              <button class="swatch" type="button" data-color="#6f4b3a" data-name="шоколад" style="--swatch: #6f4b3a" aria-label="Шоколад"><span>Шоколад</span></button>
+              <button class="swatch" type="button" data-color="#565450" data-name="графит" style="--swatch: #565450" aria-label="Графит"><span>Графит</span></button>
+              <button class="swatch" type="button" data-color="#9b4237" data-name="вишня" style="--swatch: #9b4237" aria-label="Вишня"><span>Вишня</span></button>
+              <button class="swatch" type="button" data-color="#c68662" data-name="персик" style="--swatch: #c68662" aria-label="Персик"><span>Персик</span></button>
+              <button class="swatch" type="button" data-color="#88745f" data-name="антик" style="--swatch: #88745f" aria-label="Антик"><span>Антик</span></button>
+              <button class="swatch" type="button" data-color="#b5967b" data-name="капучино" style="--swatch: #b5967b" aria-label="Капучино"><span>Капучино</span></button>
+              <button class="swatch" type="button" data-color="#aa715d" data-name="розовый кварц" style="--swatch: #aa715d" aria-label="Розовый кварц"><span>Кварц</span></button>
+            </div>
+            <div class="reference-row" aria-label="Фото домов из оригинальной фотогалереи">
+              <figure>
+                <img src="./assets/houses/house-1.jpg" alt="Дом из кирпича из фотогалереи" />
+                <figcaption>Классический фасад</figcaption>
+              </figure>
+              <figure>
+                <img src="./assets/houses/house-2.jpg" alt="Дом с кирпичным фасадом" />
+                <figcaption>Тёмная кровля</figcaption>
+              </figure>
+              <figure>
+                <img src="./assets/houses/house-3.jpg" alt="Кирпичный дом с воротами" />
+                <figcaption>Контрастный шов</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section page-shell" id="products">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Продукция</p>
+            <h2>Каталог завода</h2>
+          </div>
+        </div>
+        <div class="catalog-tabs" id="catalog-tabs" aria-label="Группы продукции"></div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <section class="section tabbed-content" id="inner-pages">
+        <div class="tabs" role="tablist" aria-label="Внутренние вкладки сайта">
+          <button class="content-tab active" type="button" data-page="promo">Акция</button>
+          <button class="content-tab" type="button" data-page="gallery">Фотогалерея</button>
+          <button class="content-tab" type="button" data-page="projects">Дома и работы</button>
+          <button class="content-tab" type="button" data-page="articles">Статьи</button>
+          <button class="content-tab" type="button" data-page="recommendations">Рекомендации</button>
+          <button class="content-tab" type="button" data-page="delivery">Оплата и доставка</button>
+          <button class="content-tab" type="button" data-page="contacts">Контакты</button>
+        </div>
+        <div class="content-panel" id="content-panel"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>2018-2026 © Элит Кирпич</strong>
+        <span>Производство и продажа облицовочного кирпича</span>
+      </div>
+      <a href="mailto:elitkirpich@mail.ru">elitkirpich@mail.ru</a>
+    </footer>
+
+    <script type="module" src="./main.js?v=20260512-no-blocks"></script>
+  </body>
+</html>

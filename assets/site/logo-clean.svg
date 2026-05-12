@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 118" role="img" aria-label="Элит Кирпич">
+  <defs>
+    <linearGradient id="brick" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#df6944"/>
+      <stop offset="1" stop-color="#a83522"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ef8a5b"/>
+      <stop offset="1" stop-color="#bd3d26"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#432014" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M32 88h72V42L32 63z" fill="url(#brick)"/>
+    <path d="M104 88h66V28l-66 14z" fill="#c5442b"/>
+    <path d="M170 88h58V52l-58-24z" fill="url(#side)"/>
+    <path d="M104 42l66-14 58 24-58 12z" fill="#f07f55"/>
+    <path d="M32 63l72-21 66 22-70 20z" fill="#e55d38"/>
+    <g stroke="#ffe4d0" stroke-width="5" stroke-linecap="round" opacity=".9">
+      <path d="M121 48v33"/>
+      <path d="M147 43v39"/>
+      <path d="M188 57v27"/>
+      <path d="M205 64v20"/>
+    </g>
+  </g>
+  <text x="246" y="56" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900" fill="#b22f22">ЭЛИТ</text>
+  <text x="246" y="89" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#241a15">КИРПИЧ</text>
+</svg>
